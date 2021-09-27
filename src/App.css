@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 10px;
+}
+
+ul {
+  background-color: transparent;
+  list-style-type: none;
+  width: 60%;
+  height: 60vh;
+  padding: 2rem;
+  text-align: start;
+  background: rgba(74, 74, 74, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+input,
+button {
+  border-radius: 8px;
+  font-size: large;
+  padding: 5px;
+  margin: 9px;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  background: rgba(74, 74, 74, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+input {
+  width: 60%;
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
